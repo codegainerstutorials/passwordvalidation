@@ -1,6 +1,6 @@
 import re
 
-def is_valid_password(password):
+
     # At least 8 characters
     if len(password) < 8:
         return False, "Password must be at least 8 characters long."
